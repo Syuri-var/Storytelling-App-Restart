@@ -16,7 +16,7 @@ class VideoTableViewController: UIViewController {
         super.viewDidLoad()
 
         // 動画ファイル名（Assets内のファイル名）を指定
-        let videoFileName = "銀河鉄道の夜.mp4" // 例: "sample_video.mp4"
+        let videoFileName = "銀河鉄道の夜 (1920 × 1080 px)" // 例: "sample_video.mp4"
 
         // 動画ファイルのURLを取得
         if let videoURL = Bundle.main.url(forResource: videoFileName, withExtension: "mp4") {
