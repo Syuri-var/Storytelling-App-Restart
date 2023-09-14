@@ -16,47 +16,50 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="切符のボタン" translatesAutoresizingMaskIntoConstraints="NO" id="r2e-Bf-xsi">
-                                <rect key="frame" x="16" y="221" width="285" height="161"/>
+                                <rect key="frame" x="0.0" y="248" width="268" height="124"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="268" id="C1C-lo-P9R"/>
+                                </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bsg-07-OPf">
                                 <rect key="frame" x="79" y="312" width="42" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="目"/>
                                 <connections>
-                                    <segue destination="YtL-kd-Icj" kind="show" id="bS4-ug-Wfm"/>
+                                    <segue destination="YtL-kd-Icj" kind="show" identifier="NextScreenSegue" id="bS4-ug-Wfm"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="切符のボタン" translatesAutoresizingMaskIntoConstraints="NO" id="fQt-X1-pZd">
-                                <rect key="frame" x="614" y="219" width="303" height="164"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="切符のボタン" translatesAutoresizingMaskIntoConstraints="NO" id="fQt-X1-pZd">
+                                <rect key="frame" x="627" y="187" width="277" height="225"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EoP-Oq-CjW">
                                 <rect key="frame" x="701" y="312" width="42" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="耳"/>
                                 <connections>
-                                    <segue destination="YtL-kd-Icj" kind="show" id="azv-yq-nCX"/>
+                                    <segue destination="YtL-kd-Icj" kind="show" identifier="NextScreenSegue" id="azv-yq-nCX"/>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t6c-02-B3d">
-                                <rect key="frame" x="79" y="42" width="694" height="250"/>
+                                <rect key="frame" x="79" y="132" width="694" height="116"/>
                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Baf-RR-8SL"/>
                         <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="Baf-RR-8SL" firstAttribute="bottom" secondItem="t6c-02-B3d" secondAttribute="bottom" constant="80" id="05F-el-4JL"/>
-                            <constraint firstItem="Baf-RR-8SL" firstAttribute="trailing" secondItem="EoP-Oq-CjW" secondAttribute="trailing" constant="50" id="6U0-nn-hDC"/>
-                            <constraint firstItem="t6c-02-B3d" firstAttribute="leading" secondItem="Baf-RR-8SL" secondAttribute="leading" constant="20" id="6qV-Ra-IMq"/>
-                            <constraint firstAttribute="bottom" secondItem="fQt-X1-pZd" secondAttribute="bottom" constant="10" id="9MO-uD-Uda"/>
-                            <constraint firstItem="r2e-Bf-xsi" firstAttribute="leading" secondItem="OlO-sa-rZC" secondAttribute="leading" constant="20" id="BLE-nH-B95"/>
-                            <constraint firstItem="Bsg-07-OPf" firstAttribute="top" secondItem="t6c-02-B3d" secondAttribute="bottom" constant="20" id="ESM-zG-rQ2"/>
-                            <constraint firstAttribute="trailing" secondItem="fQt-X1-pZd" secondAttribute="trailing" constant="10" id="GVh-Uq-bMm"/>
-                            <constraint firstItem="Bsg-07-OPf" firstAttribute="leading" secondItem="Baf-RR-8SL" secondAttribute="leading" constant="20" id="K85-ED-HdJ"/>
-                            <constraint firstAttribute="bottom" secondItem="r2e-Bf-xsi" secondAttribute="bottom" constant="20" id="PHb-hz-SDB"/>
-                            <constraint firstItem="EoP-Oq-CjW" firstAttribute="top" secondItem="t6c-02-B3d" secondAttribute="bottom" constant="20" id="UWp-cM-Bdp"/>
-                            <constraint firstItem="Baf-RR-8SL" firstAttribute="trailing" secondItem="t6c-02-B3d" secondAttribute="trailing" constant="20" id="eqb-ze-B8i"/>
-                            <constraint firstItem="t6c-02-B3d" firstAttribute="top" secondItem="Baf-RR-8SL" secondAttribute="top" constant="10" id="oEY-yQ-uZs"/>
+                            <constraint firstItem="t6c-02-B3d" firstAttribute="leading" secondItem="Baf-RR-8SL" secondAttribute="leading" constant="20" id="8Em-ym-N1C"/>
+                            <constraint firstItem="t6c-02-B3d" firstAttribute="leading" secondItem="Bsg-07-OPf" secondAttribute="leading" id="8jV-sp-CUl"/>
+                            <constraint firstAttribute="bottom" secondItem="t6c-02-B3d" secondAttribute="bottom" constant="145" id="J3y-ve-Vte"/>
+                            <constraint firstItem="r2e-Bf-xsi" firstAttribute="leading" secondItem="OlO-sa-rZC" secondAttribute="leading" id="OG9-8s-Lb8"/>
+                            <constraint firstItem="Bsg-07-OPf" firstAttribute="top" secondItem="t6c-02-B3d" secondAttribute="bottom" constant="64" id="ReV-bT-e77"/>
+                            <constraint firstItem="Baf-RR-8SL" firstAttribute="trailing" secondItem="EoP-Oq-CjW" secondAttribute="trailing" constant="50" id="TUm-7B-lo9"/>
+                            <constraint firstItem="r2e-Bf-xsi" firstAttribute="bottom" secondItem="Baf-RR-8SL" secondAttribute="bottom" id="efS-jG-7k9"/>
+                            <constraint firstItem="r2e-Bf-xsi" firstAttribute="top" secondItem="t6c-02-B3d" secondAttribute="bottom" id="jyb-EM-QLZ"/>
+                            <constraint firstItem="t6c-02-B3d" firstAttribute="top" secondItem="Baf-RR-8SL" secondAttribute="top" constant="100" id="lCX-Pi-U46"/>
+                            <constraint firstItem="Bsg-07-OPf" firstAttribute="baseline" secondItem="EoP-Oq-CjW" secondAttribute="baseline" id="nb2-nl-tV4"/>
+                            <constraint firstItem="Baf-RR-8SL" firstAttribute="trailing" secondItem="t6c-02-B3d" secondAttribute="trailing" constant="20" id="uMJ-1Q-UgF"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Yc3-aZ-1lb"/>
@@ -78,13 +81,13 @@
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="M26-RU-svI">
                                 <rect key="frame" x="79" y="62" width="694" height="270"/>
-                                <mutableString key="text">一、午后(ごご)の授業
+                                <string key="text">一、午后(ごご)の授業
 
 「ではみなさんは、そういうふうに川だと云(い)われたり、乳の流れたあとだと云われたりしていたこのぼんやりと白いものがほんとうは何かご承知ですか。」先生は、黒板に吊(つる)した大きな黒い星座の図の、上から下へ白くけぶった銀河帯のようなところを指(さ)しながら、みんなに問(とい)をかけました。
 　カムパネルラが手をあげました。それから四五人手をあげました。ジョバンニも手をあげようとして、急いでそのままやめました。たしかにあれがみんな星だと、いつか雑誌で読んだのでしたが、このごろはジョバンニはまるで毎日教室でもねむく、本を読むひまも読む本もないので、なんだかどんなこともよくわからないという気持ちがするのでした。
 　ところが先生は早くもそれを見附(みつ)けたのでした。
 「ジョバンニさん。あなたはわかっているのでしょう。」
-　ジョバンニは勢(いきおい)よく立ちあがりましたが、立って見るともうはっきりとそれを答えることができないのでした。</mutableString>
+　ジョバンニは勢(いきおい)よく立ちあがりましたが、立って見るともうはっきりとそれを答えることができないのでした。</string>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -104,6 +107,16 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" image="arrowshape.right" catalog="system" title="Button"/>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="YtL-kd-Icj" eventType="touchUpInside" id="GY0-4Z-I3j"/>
+                                    <segue destination="Jnc-CR-SRo" kind="show" id="ZlL-hQ-Bvf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uAa-Pm-Rah">
+                                <rect key="frame" x="695" y="5" width="125" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="pause" title="Button"/>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="3lF-EN-DUa"/>
@@ -126,7 +139,64 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bRZ-Aq-u1X" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3417.605633802817" y="14.503816793893129"/>
+            <point key="canvasLocation" x="3455" y="15"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="f4h-zx-ewZ">
+            <objects>
+                <viewController storyboardIdentifier="NewViewControllerID" id="Jnc-CR-SRo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PJe-Km-aYk">
+                        <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HA2-2R-u5f">
+                                <rect key="frame" x="657" y="335" width="102" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" image="arrowshape.right" catalog="system" title="Button"/>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="YtL-kd-Icj" eventType="touchUpInside" id="gIL-D5-Wyo"/>
+                                </connections>
+                            </button>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="uXg-f0-d9V">
+                                <rect key="frame" x="348" y="335" width="118" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </slider>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bMi-LM-0jf">
+                                <rect key="frame" x="95" y="57" width="694" height="270"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">ザネリが前の席からふりかえって、ジョバンニを見てくすっとわらいました。ジョバンニはもうどぎまぎしてまっ赤になってしまいました。先生がまた云いました。
+「大きな望遠鏡で銀河をよっく調べると銀河は大体何でしょう。」
+　やっぱり星だとジョバンニは思いましたがこんどもすぐに答えることができませんでした。
+　先生はしばらく困ったようすでしたが、眼(め)をカムパネルラの方へ向けて、
+「ではカムパネルラさん。」と名指しました。するとあんなに元気に手をあげたカムパネルラが、やはりもじもじ立ち上ったままやはり答えができませんでした。
+　先生は意外なようにしばらくじっとカムパネルラを見ていましたが、急いで「では。よし。」と云いながら、自分で星図を指(さ)しました。
+「このぼんやりと白い銀河を大きないい望遠鏡で見ますと、もうたくさんの小さな星に見えるのです。ジョバンニさんそうでしょう。」
+　ジョバンニはまっ赤になってうなずきました。けれどもいつかジョバンニの眼のなかには涙(なみだ)がいっぱいになりました。そうだ僕(ぼく)は知っていたのだ、勿論カムパネルラも知っている、それはいつかカムパネルラのお父さんの博士のうちでカムパネルラといっしょに読んだ雑誌のなかにあったのだ。それどこでなくカム</mutableString>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ifx-jZ-964">
+                                <rect key="frame" x="689" y="20" width="125" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="pause" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eko-5Z-UUM">
+                                <rect key="frame" x="95" y="334" width="102" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" image="arrowshape.left" catalog="system" title="Button"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="V8a-km-cBP"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="sG3-Vd-bTf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2oT-ZD-AL6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4103.5211267605637" y="14.503816793893129"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="DEn-v2-bIv">
@@ -153,6 +223,7 @@
     <resources>
         <image name="arrowshape.left" catalog="system" width="128" height="104"/>
         <image name="arrowshape.right" catalog="system" width="128" height="104"/>
+        <image name="pause" width="50" height="50"/>
         <image name="切符のボタン" width="1920" height="1080"/>
         <image name="銀河鉄道の夜 本文" width="1920" height="1080"/>
     </resources>
