@@ -5,6 +5,7 @@ class VideoTableViewController: UIViewController {
 
     var player: AVPlayer!
     var audioPlayer: AVAudioPlayer?
+    var view: PlayerView! { get set }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,10 +20,10 @@ class VideoTableViewController: UIViewController {
             let playerLayer = AVPlayerLayer(player: player)
             
             // AVPlayerLayerのフレームを設定
-            playerLayer.frame = view.bounds
+            playerLayer.frame = PlayerView.bounds
             
             // UIViewにAVPlayerLayerを追加
-            view.layer.addSublayer(playerLayer)
+            PlayerView.layer.addSublayer(playerLayer)
             
             // 動画再生を開始
             player.play()

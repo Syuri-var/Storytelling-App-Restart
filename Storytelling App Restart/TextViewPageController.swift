@@ -15,9 +15,9 @@ class TextViewPageController: UIViewController {
     }
     @IBAction func buttonTapped(_ sender: UIButton) {
         // Storyboard ID を指定して新しいビューコントローラをインスタンス化
-        if let newViewController = storyboard?.instantiateViewController(withIdentifier: "NewViewControllerID") {
+       // if let newViewController = storyboard?.instantiateViewController(withIdentifier: "NewViewControllerID") {
             // 新しいビューコントローラを表示
-            self.present(newViewController, animated: true, completion: nil)
+          //  self.present(newViewController, animated: true, completion: nil)
         }
     }
 
@@ -25,4 +25,4 @@ class TextViewPageController: UIViewController {
     
     
     
-}
+
