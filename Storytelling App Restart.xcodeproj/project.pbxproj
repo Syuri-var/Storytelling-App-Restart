@@ -10,15 +10,18 @@
 		181E3AAF2AB2AD7900BA9B57 /* 午後の授業１.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 181E3AAE2AB2AD7900BA9B57 /* 午後の授業１.mp3 */; };
 		181E3AB32AB2C67000BA9B57 /* 銀河鉄道の夜-優雅.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 181E3AB22AB2C67000BA9B57 /* 銀河鉄道の夜-優雅.mp3 */; };
 		181E3AB72AB2C8A800BA9B57 /* 銀河鉄道の夜 タイトル読み上げ.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 181E3AB62AB2C8A700BA9B57 /* 銀河鉄道の夜 タイトル読み上げ.mp4 */; };
+		188A7ABD2AB425B10055436D /* speech02.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 188A7ABC2AB425B10055436D /* speech02.mp3 */; };
+		188A7AC12AB530570055436D /* 本文背景動画.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 188A7AC02AB530570055436D /* 本文背景動画.mp4 */; };
+		188A7AC32AB539A90055436D /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188A7AC22AB539A90055436D /* PageViewController.swift */; };
+		188A7AC52AB5809C0055436D /* 銀河鉄道の夜Opening.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 188A7AC42AB5809C0055436D /* 銀河鉄道の夜Opening.mp3 */; };
+		188A7AC72AB583130055436D /* page2TextviewPageControllerPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188A7AC62AB583130055436D /* page2TextviewPageControllerPageViewController.swift */; };
 		188C8AF72AB08067000FCB8A /* VideoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188C8AF62AB08067000FCB8A /* VideoTableViewController.swift */; };
 		18A9CE6A2AB00E9300E6621C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A9CE692AB00E9300E6621C /* AppDelegate.swift */; };
 		18A9CE6C2AB00E9300E6621C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A9CE6B2AB00E9300E6621C /* SceneDelegate.swift */; };
 		18A9CE6E2AB00E9300E6621C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A9CE6D2AB00E9300E6621C /* ViewController.swift */; };
 		18A9CE712AB00E9300E6621C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A9CE6F2AB00E9300E6621C /* Main.storyboard */; };
 		18A9CE762AB00E9600E6621C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A9CE742AB00E9600E6621C /* LaunchScreen.storyboard */; };
-		18A9CE822AB00FF500E6621C /* speech_20230911072657018.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18A9CE812AB00FF500E6621C /* speech_20230911072657018.mp3 */; };
 		18A9CE882AB018C000E6621C /* 銀河鉄道の夜午後の授業.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18A9CE872AB018C000E6621C /* 銀河鉄道の夜午後の授業.mp3 */; };
-		18A9CE8A2AB018CD00E6621C /* 銀河鉄道の夜Opening.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18A9CE892AB018CD00E6621C /* 銀河鉄道の夜Opening.mp3 */; };
 		18A9CE8C2AB04A7900E6621C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A9CE8B2AB04A7900E6621C /* Assets.xcassets */; };
 		18A9CE8E2AB04AFF00E6621C /* TextViewPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A9CE8D2AB04AFF00E6621C /* TextViewPageController.swift */; };
 /* End PBXBuildFile section */
@@ -27,6 +30,11 @@
 		181E3AAE2AB2AD7900BA9B57 /* 午後の授業１.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "午後の授業１.mp3"; sourceTree = "<group>"; };
 		181E3AB22AB2C67000BA9B57 /* 銀河鉄道の夜-優雅.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "銀河鉄道の夜-優雅.mp3"; sourceTree = "<group>"; };
 		181E3AB62AB2C8A700BA9B57 /* 銀河鉄道の夜 タイトル読み上げ.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "銀河鉄道の夜 タイトル読み上げ.mp4"; sourceTree = "<group>"; };
+		188A7ABC2AB425B10055436D /* speech02.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = speech02.mp3; sourceTree = "<group>"; };
+		188A7AC02AB530570055436D /* 本文背景動画.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "本文背景動画.mp4"; sourceTree = "<group>"; };
+		188A7AC22AB539A90055436D /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		188A7AC42AB5809C0055436D /* 銀河鉄道の夜Opening.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "銀河鉄道の夜Opening.mp3"; sourceTree = "<group>"; };
+		188A7AC62AB583130055436D /* page2TextviewPageControllerPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = page2TextviewPageControllerPageViewController.swift; sourceTree = "<group>"; };
 		188C8AF62AB08067000FCB8A /* VideoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewController.swift; sourceTree = "<group>"; };
 		18A9CE662AB00E9300E6621C /* Storytelling App Restart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Storytelling App Restart.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A9CE692AB00E9300E6621C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -35,9 +43,7 @@
 		18A9CE702AB00E9300E6621C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18A9CE752AB00E9600E6621C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18A9CE772AB00E9600E6621C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18A9CE812AB00FF500E6621C /* speech_20230911072657018.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = speech_20230911072657018.mp3; sourceTree = "<group>"; };
 		18A9CE872AB018C000E6621C /* 銀河鉄道の夜午後の授業.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "銀河鉄道の夜午後の授業.mp3"; sourceTree = "<group>"; };
-		18A9CE892AB018CD00E6621C /* 銀河鉄道の夜Opening.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "銀河鉄道の夜Opening.mp3"; sourceTree = "<group>"; };
 		18A9CE8B2AB04A7900E6621C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18A9CE8D2AB04AFF00E6621C /* TextViewPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewPageController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -56,11 +62,11 @@
 		18A9CE5D2AB00E9300E6621C = {
 			isa = PBXGroup;
 			children = (
-				18A9CE812AB00FF500E6621C /* speech_20230911072657018.mp3 */,
 				18A9CE872AB018C000E6621C /* 銀河鉄道の夜午後の授業.mp3 */,
 				181E3AAE2AB2AD7900BA9B57 /* 午後の授業１.mp3 */,
-				18A9CE892AB018CD00E6621C /* 銀河鉄道の夜Opening.mp3 */,
+				188A7ABC2AB425B10055436D /* speech02.mp3 */,
 				181E3AB22AB2C67000BA9B57 /* 銀河鉄道の夜-優雅.mp3 */,
+				188A7AC42AB5809C0055436D /* 銀河鉄道の夜Opening.mp3 */,
 				18A9CE682AB00E9300E6621C /* Storytelling App Restart */,
 				18A9CE672AB00E9300E6621C /* Products */,
 			);
@@ -80,13 +86,16 @@
 				18A9CE692AB00E9300E6621C /* AppDelegate.swift */,
 				18A9CE6B2AB00E9300E6621C /* SceneDelegate.swift */,
 				18A9CE6D2AB00E9300E6621C /* ViewController.swift */,
+				188A7AC62AB583130055436D /* page2TextviewPageControllerPageViewController.swift */,
 				18A9CE8D2AB04AFF00E6621C /* TextViewPageController.swift */,
+				188A7AC22AB539A90055436D /* PageViewController.swift */,
 				188C8AF62AB08067000FCB8A /* VideoTableViewController.swift */,
 				18A9CE6F2AB00E9300E6621C /* Main.storyboard */,
 				18A9CE742AB00E9600E6621C /* LaunchScreen.storyboard */,
 				18A9CE772AB00E9600E6621C /* Info.plist */,
 				18A9CE8B2AB04A7900E6621C /* Assets.xcassets */,
 				181E3AB62AB2C8A700BA9B57 /* 銀河鉄道の夜 タイトル読み上げ.mp4 */,
+				188A7AC02AB530570055436D /* 本文背景動画.mp4 */,
 			);
 			path = "Storytelling App Restart";
 			sourceTree = "<group>";
@@ -152,12 +161,13 @@
 				181E3AAF2AB2AD7900BA9B57 /* 午後の授業１.mp3 in Resources */,
 				18A9CE882AB018C000E6621C /* 銀河鉄道の夜午後の授業.mp3 in Resources */,
 				18A9CE762AB00E9600E6621C /* LaunchScreen.storyboard in Resources */,
+				188A7AC52AB5809C0055436D /* 銀河鉄道の夜Opening.mp3 in Resources */,
 				181E3AB72AB2C8A800BA9B57 /* 銀河鉄道の夜 タイトル読み上げ.mp4 in Resources */,
 				18A9CE712AB00E9300E6621C /* Main.storyboard in Resources */,
-				18A9CE822AB00FF500E6621C /* speech_20230911072657018.mp3 in Resources */,
 				181E3AB32AB2C67000BA9B57 /* 銀河鉄道の夜-優雅.mp3 in Resources */,
+				188A7AC12AB530570055436D /* 本文背景動画.mp4 in Resources */,
 				18A9CE8C2AB04A7900E6621C /* Assets.xcassets in Resources */,
-				18A9CE8A2AB018CD00E6621C /* 銀河鉄道の夜Opening.mp3 in Resources */,
+				188A7ABD2AB425B10055436D /* speech02.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,8 +181,10 @@
 				18A9CE8E2AB04AFF00E6621C /* TextViewPageController.swift in Sources */,
 				18A9CE6E2AB00E9300E6621C /* ViewController.swift in Sources */,
 				18A9CE6A2AB00E9300E6621C /* AppDelegate.swift in Sources */,
+				188A7AC32AB539A90055436D /* PageViewController.swift in Sources */,
 				188C8AF72AB08067000FCB8A /* VideoTableViewController.swift in Sources */,
 				18A9CE6C2AB00E9300E6621C /* SceneDelegate.swift in Sources */,
+				188A7AC72AB583130055436D /* page2TextviewPageControllerPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,8 +337,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeRight;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeRight;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -353,8 +364,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeRight;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeRight;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

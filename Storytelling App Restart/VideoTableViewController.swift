@@ -5,7 +5,7 @@ class VideoTableViewController: UIViewController {
 
     var player: AVPlayer!
     var audioPlayer: AVAudioPlayer?
-    var view: PlayerView! { get set }
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,13 +18,14 @@ class VideoTableViewController: UIViewController {
             // AVPlayerを初期化し、AVPlayerLayerを作成
             player = AVPlayer(url: videoURL)
             let playerLayer = AVPlayerLayer(player: player)
-            
+
             // AVPlayerLayerのフレームを設定
-            playerLayer.frame = PlayerView.bounds
-            
+            playerLayer.frame = view.frame
+
             // UIViewにAVPlayerLayerを追加
-            PlayerView.layer.addSublayer(playerLayer)
-            
+//            view.layer.addSublayer(playerLayer)
+            view.layer.insertSublayer(playerLayer, at: 0)
+
             // 動画再生を開始
             player.play()
         } else {
@@ -47,11 +48,26 @@ class VideoTableViewController: UIViewController {
             print("音楽ファイルが見つかりません")
         }
     }
+    
+//    override func viewDidAppear(_ animated: Bool) {
+//        let playerLayer = AVPlayerLayer(player: player)
+//
+//        // AVPlayerLayerのフレームを設定
+//        playerLayer.frame = view.bounds
+//
+//        // UIViewにAVPlayerLayerを追加
+////            view.layer.addSublayer(playerLayer)
+//        view.layer.insertSublayer(playerLayer, at: 0)
+//
+//        // 動画再生を開始
+//        player.play()
+//    }
 
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "NextScreenSegue" {
-            // 次の画面に遷移する前に音楽再生を停止
-            audioPlayer?.stop()
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+
+        // 画面が非表示になる直前に音楽再生を停止
+        audioPlayer?.stop()
         }
     }
-}
+
