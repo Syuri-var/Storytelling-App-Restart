@@ -6,6 +6,7 @@ class VideoTableViewController: UIViewController {
     var player: AVPlayer!
     var audioPlayer: AVAudioPlayer?
     
+    @IBOutlet weak var imageButton: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -62,6 +63,14 @@ class VideoTableViewController: UIViewController {
 //        // 動画再生を開始
 //        player.play()
 //    }
+
+    @IBAction func imageButtonPush(_ sender: Any) {
+        let image = UIImage(named: "2")
+        let state = UIControl.State.normal
+
+        imageButton.setImage(image, for: state)
+
+    }
 
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)

@@ -49,7 +49,18 @@ class page2PageViewController: UIViewController {
         } else {
             print("音楽ファイルが見つかりません")
         }
+        
+
+        
     }
+    @IBAction func stopAudioButtonPressed(_ sender: UIButton) {
+        // 1つ目の音楽を停止
+        audioPlayer1?.stop()
+        
+        // 2つ目の音楽を停止
+        audioPlayer2?.stop()
+    }
+    
     
 //    override func viewDidAppear(_ animated: Bool) {
 //        let playerLayer = AVPlayerLayer(player: player)
@@ -70,6 +81,6 @@ class page2PageViewController: UIViewController {
 
         // 画面が非表示になる直前に音楽再生を停止
        // audioPlayer?.stop()
-        }
+}
     
 

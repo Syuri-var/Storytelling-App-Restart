@@ -10,7 +10,7 @@
 		181E3AAF2AB2AD7900BA9B57 /* 午後の授業１.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 181E3AAE2AB2AD7900BA9B57 /* 午後の授業１.mp3 */; };
 		181E3AB32AB2C67000BA9B57 /* 銀河鉄道の夜-優雅.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 181E3AB22AB2C67000BA9B57 /* 銀河鉄道の夜-優雅.mp3 */; };
 		181E3AB72AB2C8A800BA9B57 /* 銀河鉄道の夜 タイトル読み上げ.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 181E3AB62AB2C8A700BA9B57 /* 銀河鉄道の夜 タイトル読み上げ.mp4 */; };
-		188A7ABD2AB425B10055436D /* speech02.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 188A7ABC2AB425B10055436D /* speech02.mp3 */; };
+		184825622AB5F4A00084E980 /* speech02.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 184825612AB5F4A00084E980 /* speech02.mp3 */; };
 		188A7AC12AB530570055436D /* 本文背景動画.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 188A7AC02AB530570055436D /* 本文背景動画.mp4 */; };
 		188A7AC32AB539A90055436D /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188A7AC22AB539A90055436D /* PageViewController.swift */; };
 		188A7AC52AB5809C0055436D /* 銀河鉄道の夜Opening.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 188A7AC42AB5809C0055436D /* 銀河鉄道の夜Opening.mp3 */; };
@@ -30,7 +30,7 @@
 		181E3AAE2AB2AD7900BA9B57 /* 午後の授業１.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "午後の授業１.mp3"; sourceTree = "<group>"; };
 		181E3AB22AB2C67000BA9B57 /* 銀河鉄道の夜-優雅.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "銀河鉄道の夜-優雅.mp3"; sourceTree = "<group>"; };
 		181E3AB62AB2C8A700BA9B57 /* 銀河鉄道の夜 タイトル読み上げ.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "銀河鉄道の夜 タイトル読み上げ.mp4"; sourceTree = "<group>"; };
-		188A7ABC2AB425B10055436D /* speech02.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = speech02.mp3; sourceTree = "<group>"; };
+		184825612AB5F4A00084E980 /* speech02.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = speech02.mp3; sourceTree = "<group>"; };
 		188A7AC02AB530570055436D /* 本文背景動画.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "本文背景動画.mp4"; sourceTree = "<group>"; };
 		188A7AC22AB539A90055436D /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		188A7AC42AB5809C0055436D /* 銀河鉄道の夜Opening.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "銀河鉄道の夜Opening.mp3"; sourceTree = "<group>"; };
@@ -64,7 +64,7 @@
 			children = (
 				18A9CE872AB018C000E6621C /* 銀河鉄道の夜午後の授業.mp3 */,
 				181E3AAE2AB2AD7900BA9B57 /* 午後の授業１.mp3 */,
-				188A7ABC2AB425B10055436D /* speech02.mp3 */,
+				184825612AB5F4A00084E980 /* speech02.mp3 */,
 				181E3AB22AB2C67000BA9B57 /* 銀河鉄道の夜-優雅.mp3 */,
 				188A7AC42AB5809C0055436D /* 銀河鉄道の夜Opening.mp3 */,
 				18A9CE682AB00E9300E6621C /* Storytelling App Restart */,
@@ -162,12 +162,12 @@
 				18A9CE882AB018C000E6621C /* 銀河鉄道の夜午後の授業.mp3 in Resources */,
 				18A9CE762AB00E9600E6621C /* LaunchScreen.storyboard in Resources */,
 				188A7AC52AB5809C0055436D /* 銀河鉄道の夜Opening.mp3 in Resources */,
+				184825622AB5F4A00084E980 /* speech02.mp3 in Resources */,
 				181E3AB72AB2C8A800BA9B57 /* 銀河鉄道の夜 タイトル読み上げ.mp4 in Resources */,
 				18A9CE712AB00E9300E6621C /* Main.storyboard in Resources */,
 				181E3AB32AB2C67000BA9B57 /* 銀河鉄道の夜-優雅.mp3 in Resources */,
 				188A7AC12AB530570055436D /* 本文背景動画.mp4 in Resources */,
 				18A9CE8C2AB04A7900E6621C /* Assets.xcassets in Resources */,
-				188A7ABD2AB425B10055436D /* speech02.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
