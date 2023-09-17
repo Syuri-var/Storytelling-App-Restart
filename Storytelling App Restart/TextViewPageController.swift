@@ -30,12 +30,12 @@ class TextViewPageController: UIViewController {
             playerLayer.frame = view.frame
             
             
-            timer = Timer.scheduledTimer(timeInterval: 60.0,                            //
-                                         target: self,                   //
-                                         selector: "changeView",         //
-                                         userInfo: nil,                  //
-                                         repeats: false)
-            
+//            timer = Timer.scheduledTimer(timeInterval: 60.0,                            //
+//                                         target: self,                   //
+//                                         selector: "changeView",         //
+//                                         userInfo: nil,                  //
+//                                         repeats: false)
+
             
             
             // func changeView() {                                                                //
