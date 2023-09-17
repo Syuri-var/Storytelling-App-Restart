@@ -73,17 +73,17 @@ class TextViewPageController: UIViewController {
         }
         
         // 2つ目の音楽ファイルのURLを取得
-        //  if let musicURL2 = Bundle.main.url(forResource: musicFileName2, withExtension: "mp3") {
-        //    do {
+          if let musicURL2 = Bundle.main.url(forResource: musicFileName2, withExtension: "mp3") {
+          do {
         // 2つ目のAVAudioPlayerのインスタンスを作成し、音楽を再生
-        // audioPlayer2 = try AVAudioPlayer(contentsOf: musicURL2)
-        // audioPlayer2?.play()
-        //   } catch {
-        //  print("2つ目の音楽ファイルの再生エラー: \(error.localizedDescription)")
-        //            }
-        //  } else {
-        // print("2つ目の音楽ファイルが見つかりません")
-        //        }
+         audioPlayer2 = try AVAudioPlayer(contentsOf: musicURL2)
+         audioPlayer2?.play()
+           } catch {
+          print("2つ目の音楽ファイルの再生エラー: \(error.localizedDescription)")
+                    }
+          } else {
+         print("2つ目の音楽ファイルが見つかりません")
+                }
     }
     
     func changeView() {
